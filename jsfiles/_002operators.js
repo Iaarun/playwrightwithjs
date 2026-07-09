@@ -75,3 +75,12 @@ console.log(numb2);
 
 --numb2;
 numb2--;
+
+
+
+//bitwise operators
+var a = 5;
+var b = 3;
+console.log(a & b); // Output: 1
+console.log(a | b); // Output: 7
+console.log(a ^ b); // Output: 6
