@@ -1,4 +1,4 @@
-/*
+
 // if else
     /*
 if(condition){
@@ -6,7 +6,7 @@ if(condition){
 }else{
     code block to be executed if condition is false
 }
-
+*/
 var age = 16;
 if(age >= 18){
     console.log("You can vote");
@@ -37,7 +37,7 @@ if(checksignallight === "red"){
 } else {
     console.log("Go");
 } 
-*/
+
 /* design a Grade system 
 if percentage is greater than 90 then print A, 
 if percentage is greater than 80 then print B, 
