@@ -61,3 +61,34 @@ for(let num of arr4){
     console.log(num)
 }
 
+console.log("Iterating over an array using foreach in loop")
+ arr4 = [1,10,3,10,5,6,7,8,9];
+
+arr4.forEach(x => console.log(x));
+
+// join two arrays
+let fruits = ["Banana", "Orange", "Apple", "Mango","Mango","Apple"];
+let vegetables = ["Carrot", "Potato", "Cabbage", "Onion"];
+let fruitsAndVegetables = fruits.concat(vegetables);
+console.log(fruitsAndVegetables);
+console.log(fruitsAndVegetables.join(" | "));
+
+//searching an element in an array
+fruits.at(2); // returns the element at index 2
+fruits[2] // returns the element at index 2
+
+console.log(fruits.indexOf("Apple"));
+console.log(fruits.indexOf("Apple",5)); // returns the index of the first occurrence of "Apple"
+console.log(fruits.indexOf("Apple",-1)); // returns the index of the first occurrence of "Apple" starting from the end of the array
+
+console.log(fruits.lastIndexOf("Mango")); // returns the index of the last occurrence of "Apple"
+//sort
+console.log("******SORTING******")
+console.log(fruitsAndVegetables.join(" | "));
+console.log("******SORTED******")
+console.log(fruitsAndVegetables.sort().join(" | "))
+let fruits1= fruitsAndVegetables.toSorted()
+console.log(fruits1.join("|"))
+
+fruits1= fruitsAndVegetables.toReversed() // do not modifes the esixting creates a new array and reverse it
+console.log(fruits1.join("|"))
