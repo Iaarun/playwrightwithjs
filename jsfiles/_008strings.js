@@ -1,0 +1,38 @@
+// string is a sequence of characters
+//declaration of string object using literal
+//string are immutable
+
+let str1 = "Hello world!!"
+console.log(str1)
+str1.replace("world!!", "JS")
+console.log(str1)
+let str2 = "Hello world!!"
+//console.log(str1)
+//console.log(str1[0])
+
+// create string using constructor
+ let str3 = new String ("Hello JS!!")
+ console.log(str3)
+let str4 = new String ("Hello JS!!")
+console.log(str1 === str2) //true
+console.log(str3 === str4) //false
+//check the object type
+console.log(typeof str1)
+console.log(typeof str3)
+
+//string functions
+let str5 = "Namaste JS!, I love reading js"
+console.log(str5[0])
+console.log(str5[str5.length-1])
+console.log(str5.length)
+// substring
+
+console.log(str5.substring(8))
+console.log(str5.substring(8,28))
+
+//slice
+console.log(str5.slice(8,28))
+
+console.log(str5.substring(8,0))
+console.log(str5.substring(0,8))
+console.log(str5.slice(8,0))
