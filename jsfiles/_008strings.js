@@ -36,3 +36,32 @@ console.log(str5.slice(8,28))
 console.log(str5.substring(8,0))
 console.log(str5.substring(0,8))
 console.log(str5.slice(8,0))
+ // replace
+ let str6 = "Mind, Power, focus, focus, focus"
+let rep1= str6.replace("focus","Peace")
+ console.log(rep1)
+
+ //replaceall
+let repl= str6.replaceAll("focus", "peace")
+console.log(repl)
+
+str5 = "Namaste JS!, I love reading js"
+console.log(str5.toLowerCase())
+console.log(str5.toUpperCase())
+
+//convert any given strign in title case "namaste js i love reading js"
+//split function
+ let newstr= "namaste js i love reading js"
+ let sbstrarr = newstr.split(" ")
+ console.log(sbstrarr)
+
+ let str7=" Namaste JS! "
+ let str8 = "I love readign js"
+ console.log(str7+" "+str8)
+
+  console.log(str7.match("JS"))
+  console.log(str7.trimEnd())
+
+
+   
+
