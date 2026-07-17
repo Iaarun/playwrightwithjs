@@ -56,11 +56,26 @@ console.log(str5.toUpperCase())
  console.log(sbstrarr)
 
  let str7=" Namaste JS! "
- let str8 = "I love readign js"
+ let str8 = "I love reading js"
  console.log(str7+" "+str8)
 
   console.log(str7.match("JS"))
   console.log(str7.trimEnd())
+// concat
+let str9 = str7.concat(str8)
+console.log(str9)
+//startswith
+console.log(str9.trimStart().startsWith("Namaste JS"))
+console.log(str9.endsWith("js"))
+//indexof
+console.log(str9.indexOf("reading"))
+// abcxyz@gmail.com    Hello abcxyz
+
+emailstr = "abcxyz@gmail.com"
+let estr= emailstr.split("@")
+console.log("Hello ".concat(estr[0]))
+console.log("Hello ".concat(emailstr.substring(0,emailstr.indexOf("@"))))
+
 
 
    
