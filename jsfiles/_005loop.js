@@ -69,3 +69,5 @@ console.log("Star Pattern 2");
     console.log(j);
     j++;        
   } while(j>=10)
+
+    

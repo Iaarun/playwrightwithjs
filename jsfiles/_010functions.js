@@ -2,6 +2,7 @@
    modularize, organize and enhance reusability
 */
 
+// Named functions
 //non parameterised non returning function
 function sayHello(){
   console.log("Hello! Arun")
@@ -30,3 +31,25 @@ function sum(a, b){
 let add = sum(10,15)
 console.log(add+10)
 
+// write a function to calcute the simple intrest pa, time, roi
+function simpleInterest( pa, time=1, roi=5){
+    return (pa*roi*time)/100 
+
+}
+
+// Anonymous functions
+let sayhi= function() {
+    return "Hello JS" 
+}
+
+console.log(sayhi())
+// function expression
+let squareofnum = function square (a){
+    return a*a
+}
+console.log(squareofnum(5))
+
+//Arrow function
+let add1 = (a,b) => a+b
+ 
+console.log(add1(10,35))

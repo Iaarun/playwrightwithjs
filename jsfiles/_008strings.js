@@ -27,7 +27,7 @@ console.log(str5[str5.length-1])
 console.log(str5.length)
 // substring
 
-console.log(str5.substring(8))
+console.log(str5.substring())
 console.log(str5.substring(8,28))
 
 //slice
