@@ -53,3 +53,9 @@ console.log(squareofnum(5))
 let add1 = (a,b) => a+b
  
 console.log(add1(10,35))
+
+// function overoading
+function sayHello2(name, age){
+    console.log("Hello "+name+" and I am "+age+" old")
+}
+
