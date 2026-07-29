@@ -1,5 +1,5 @@
 function toTitlecase(){
-str1 = "Hello World i love rading js"
+str1 = "Hello World i love reading js"
 let words =  str1.toLowerCase().split(" ")
 for(let i=0; i<words.length;i++){
       words[i]=  words[i].charAt(0).toUpperCase() + words[i].slice(1)
