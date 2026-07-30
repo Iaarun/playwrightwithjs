@@ -70,5 +70,4 @@ console.log(str7.endsWith("es"))
 i/p = thisistestdata
 
 0/p = atadtsetissiht
-
 */
