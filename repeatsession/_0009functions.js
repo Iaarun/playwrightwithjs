@@ -48,4 +48,18 @@ function addition(a,b){
  let cube = n => n*n*n
  console.log(cube(5))
 
+ // callback function
+
+ function welcome(name, callback){
+         console.log(`Hello ${name}`) 
+         callback()        
+ }
+
+ function saybye(){
+    console.log("Good bye! See you later.")
+}
+
+welcome("Arun", saybye)
+
+
 

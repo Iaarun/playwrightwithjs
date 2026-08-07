@@ -5,10 +5,9 @@ function addition(a,b){
     return sum;
 }
 
-console.log(subtract(10,5))
+//console.log(subtract(10,5))
 let subtract= function sub(a,b){
     return a-b
 }
 
- 
 
