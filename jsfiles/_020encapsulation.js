@@ -1,13 +1,13 @@
-// encapsulation is bunding the data and the methods in a single unit and restricting the direct access.
+// encapsulation is bundling the data and the methods in a single unit and restricting the direct access.
 // getter and setter function
 class Person{
-    #name
-    #age
+    #name // private
+    #age  // private
    
     setName(name){
         this.#name = name
     }
-   
+   // getter and setter for age with validation
     setAge(age){
         if(age>0 && age<100){
         this.#age = age

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "require": "^2.4.20",
+    "xlsx": "^0.18.5"
+  }
+}
